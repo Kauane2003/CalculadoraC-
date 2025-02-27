@@ -1,15 +1,18 @@
-﻿namespace CalculadoraC_
+﻿using System.Runtime.Serialization;
+
+namespace CalculadoraC_
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Digite o primeiro numero: ");
+           
+            int numero1, numero2, soma 
+           
 
-
-
-
-
+           
+          
+    
 
         }
     }
