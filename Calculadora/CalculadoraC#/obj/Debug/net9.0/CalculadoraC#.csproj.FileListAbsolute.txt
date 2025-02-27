@@ -1,0 +1,15 @@
+C:\Users\kauane.scunha1\Documents\Calculadora\CalculadoraC#\bin\Debug\net9.0\CalculadoraC#.exe
+C:\Users\kauane.scunha1\Documents\Calculadora\CalculadoraC#\bin\Debug\net9.0\CalculadoraC#.deps.json
+C:\Users\kauane.scunha1\Documents\Calculadora\CalculadoraC#\bin\Debug\net9.0\CalculadoraC#.runtimeconfig.json
+C:\Users\kauane.scunha1\Documents\Calculadora\CalculadoraC#\bin\Debug\net9.0\CalculadoraC#.dll
+C:\Users\kauane.scunha1\Documents\Calculadora\CalculadoraC#\bin\Debug\net9.0\CalculadoraC#.pdb
+C:\Users\kauane.scunha1\Documents\Calculadora\CalculadoraC#\obj\Debug\net9.0\CalculadoraC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kauane.scunha1\Documents\Calculadora\CalculadoraC#\obj\Debug\net9.0\CalculadoraC#.AssemblyInfoInputs.cache
+C:\Users\kauane.scunha1\Documents\Calculadora\CalculadoraC#\obj\Debug\net9.0\CalculadoraC#.AssemblyInfo.cs
+C:\Users\kauane.scunha1\Documents\Calculadora\CalculadoraC#\obj\Debug\net9.0\CalculadoraC#.csproj.CoreCompileInputs.cache
+C:\Users\kauane.scunha1\Documents\Calculadora\CalculadoraC#\obj\Debug\net9.0\CalculadoraC#.sourcelink.json
+C:\Users\kauane.scunha1\Documents\Calculadora\CalculadoraC#\obj\Debug\net9.0\CalculadoraC#.dll
+C:\Users\kauane.scunha1\Documents\Calculadora\CalculadoraC#\obj\Debug\net9.0\refint\CalculadoraC#.dll
+C:\Users\kauane.scunha1\Documents\Calculadora\CalculadoraC#\obj\Debug\net9.0\CalculadoraC#.pdb
+C:\Users\kauane.scunha1\Documents\Calculadora\CalculadoraC#\obj\Debug\net9.0\CalculadoraC#.genruntimeconfig.cache
+C:\Users\kauane.scunha1\Documents\Calculadora\CalculadoraC#\obj\Debug\net9.0\ref\CalculadoraC#.dll
