@@ -9,7 +9,16 @@ namespace CalculadoraC_
             Console.WriteLine("1- Adição");
             Console.WriteLine("2- Subtração ");
 
-            int operacao = int.Parse(Console.ReadLine();      
+            int operacao = int.Parse(Console.ReadLine();
+
+            Console.WriteLine("Digite o primeiro numero: ");
+            int Numero1 = int.Parse(Console.ReadLine();
+
+            Console.WriteLine("Digite o Segundo numero: ");
+            int Numero2 = int.Parse(Console.ReadLine();
+
+            int resultado = 0;
+
 
         }
     }
