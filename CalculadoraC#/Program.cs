@@ -31,8 +31,8 @@ namespace CalculadoraC_
                         resultado = Subtracao(Numero1 - Numero2);
                         break;
                     }
-
-
+            Console.WriteLine("O resultado da operacao com os numeros {0} e {1} é: {2}", Numero1, Numero2, resultado);
+            Console.ReadLine();
             }
         }
     }
