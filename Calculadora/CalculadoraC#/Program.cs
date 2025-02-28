@@ -34,12 +34,12 @@ namespace CalculadoraC_
                     }
                 case 3:
                     {
-                        resultado = Adicao(Numero1, Numero2);
+                        resultado = Multiplicacao(Numero1, Numero2);
                         break;
                     }
                 case 4:
                     {
-                        resultado = Subtracao(Numero1, Numero2);
+                        resultado = Divisao(Numero1, Numero2);
                         break;
                     }
             }
@@ -53,6 +53,14 @@ namespace CalculadoraC_
             return resultado;
         }
         public static int Subtracao(int numero1, int numero2)
+        {
+
+        public static int Multiplicacao(int numero1, int numero2)
+        {
+            int resultado = numero1 + numero2;
+            return resultado;
+        }
+        public static int Divisao(int numero1, int numero2)
         {
             int resultado = numero1 - numero2;
             return resultado;
