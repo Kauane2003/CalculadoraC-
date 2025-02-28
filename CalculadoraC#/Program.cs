@@ -6,13 +6,14 @@ namespace CalculadoraC_
     {
         static void Main(string[] args)
         {
-           
-            int numero1, numero2, soma 
-           
+            Console.WriteLine("Qual operação deseja fazer: ");
+            Console.WriteLine("1- Adição");
+            Console.WriteLine("2- Subtração ")
+
+            int operação = int.Parse(Console.ReadLine();
 
            
-          
-    
+
 
         }
     }
