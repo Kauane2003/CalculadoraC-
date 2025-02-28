@@ -19,7 +19,21 @@ namespace CalculadoraC_
 
             int resultado = 0;
 
+            switch (operacao)
+            {
+                case 1:
+                    {
+                        resultado = Adicao(Numero1 + Numero2);
+                        break;
+                    }
+                case 2:                           
+                    {
+                        resultado = Subtracao(Numero1 - Numero2);
+                        break;
+                    }
 
+
+            }
         }
     }
 }
