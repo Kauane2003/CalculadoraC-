@@ -26,15 +26,27 @@ namespace CalculadoraC_
                         resultado = Adicao(Numero1 + Numero2);
                         break;
                     }
-                case 2:                           
+                case 2:
                     {
                         resultado = Subtracao(Numero1 - Numero2);
                         break;
                     }
-            Console.WriteLine("O resultado da operacao com os numeros {0} e {1} é: {2}", Numero1, Numero2, resultado);
-            Console.ReadLine();
+                    Console.WriteLine("O resultado da operacao com os numeros {0} e {1} é: {2}", Numero1, Numero2, resultado);
+                    Console.ReadLine();
             }
+        }
+         
+        public static int Adicao(int numero1, int numero2)
+        {
+            int resultado = numero1 + numero2;
+            return resultado
+        }
+        public static int Subtracao(int numero1, int numero2)
+        {
+            int resultado = numero1 - numero2;
+            return resultado
         }
     }
 }
+    
 
