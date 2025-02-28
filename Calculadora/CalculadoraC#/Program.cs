@@ -1,49 +1,62 @@
-using System;
-
-class Program
+namespace CalculadoraC_
 {
-    static void Main(string[] args)
+    internal class Program
     {
-        Console.WriteLine("Calculadora Simples");
-        Console.WriteLine("Escolha uma operação:");
-        Console.WriteLine("1. Adição");
-        Console.WriteLine("2. Subtração");
-        Console.WriteLine("3. Multiplicação");
-        Console.WriteLine("4. Divisão");
-        Console.Write("Digite o número da operação desejada: ");
-
-        int operacao = Convert.ToInt32(Console.ReadLine());
-
-        Console.Write("Digite o primeiro número: ");
-        double num1 = Convert.ToDouble(Console.ReadLine());
-
-        Console.Write("Digite o segundo número: ");
-        double num2 = Convert.ToDouble(Console.ReadLine());
-
-        double resultado = 0;
-
-        switch (operacao)
+        static void Main(string[] args)
         {
-            case 1:
-                resultado = num1 + num2;
-                break;
-            case 2:
-                resultado = num1 - num2;
-                break;
-            case 3:
-                resultado = num1 * num2;
-                break;
-            case 4:
-                if (num2 == 0)
-                {
-                    Console.WriteLine("Erro: Não é possível dividir por zero.");
-                    return;
-                }
-                resultado = num1 / num2;
-                break;
-            default:
-                Console.WriteLine("Operação inválida.");
-                return;
+            Console.WriteLine("Qual operação deseja fazer: ");
+            Console.WriteLine("1- Adição");
+            Console.WriteLine("2- Subtração ");
+            Console.WriteLine("3. Multiplicação");
+            Console.WriteLine("4. Divisão");
+
+            int operacao = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o primeiro numero: ");
+            int Numero1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o Segundo numero: ");
+            int Numero2 = int.Parse(Console.ReadLine());
+
+            int resultado = 0;
+
+            switch (operacao)
+            {
+                case 1:
+                    {
+                        resultado = Adicao(Numero1, Numero2);
+                        break;
+                    }
+                case 2:
+                    {
+                        resultado = Subtracao(Numero1, Numero2);
+                        break;
+                    }
+                case 3:
+                    {
+                        resultado = Adicao(Numero1, Numero2);
+                        break;
+                    }
+                case 4:
+                    {
+                        resultado = Subtracao(Numero1, Numero2);
+                        break;
+                    }
+            }
+            Console.WriteLine("O resultado da operacao com os numeros {0} e {1} é: {2}", Numero1, Numero2, resultado);
+
         }
 
-        Console.WriteLine($"Resultado: {resultado}");
+        public static int Adicao(int numero1, int numero2)
+        {
+            int resultado = numero1 + numero2;
+            return resultado;
+        }
+        public static int Subtracao(int numero1, int numero2)
+        {
+            int resultado = numero1 - numero2;
+            return resultado;
+        }
+
+    }
+}
