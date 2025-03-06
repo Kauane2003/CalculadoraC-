@@ -57,12 +57,12 @@ namespace CalculadoraC_
 
         public static int Multiplicacao(int numero1, int numero2)
         {
-            int resultado = numero1 + numero2;
+            int resultado = numero1 * numero2;
             return resultado;
         }
         public static int Divisao(int numero1, int numero2)
         {
-            int resultado = numero1 - numero2;
+            int resultado = numero1 / numero2;
             return resultado;
         }
 
