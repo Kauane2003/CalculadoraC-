@@ -53,8 +53,10 @@ namespace CalculadoraC_
             return resultado;
         }
         public static int Subtracao(int numero1, int numero2)
-        {
-
+        {  
+            int resultado = numero1 - numero2;
+            return resultado;
+        }
         public static int Multiplicacao(int numero1, int numero2)
         {
             int resultado = numero1 * numero2;
